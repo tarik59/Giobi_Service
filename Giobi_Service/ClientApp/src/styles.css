@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+ @import "../src/assets/vendor/perfect-scrollbar.css";
+@import "../src/assets/css/app.css";
+@import "../src/assets/css/app.rtl.css";
+@import "../src/assets/css/vendor-material-icons.css";
+@import "../src/assets/css/vendor-material-icons.rtl.css";
+@import "../src/assets/css/vendor-fontawesome-free.css";
+@import "../src/assets/css/vendor-fontawesome-free.rtl.css"; 
+/* Provide sufficient contrast against white background */
+

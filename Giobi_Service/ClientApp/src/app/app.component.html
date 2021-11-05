@@ -1,0 +1,27 @@
+
+  
+ <div class="preloader"></div>
+ <div class="layout-login" *ngIf="!(authService.currentUser$|async)">
+  <router-outlet></router-outlet>
+</div> 
+
+
+
+<ng-container *ngIf="(authService.currentUser$|async)">
+<div class="mdk-header-layout js-mdk-header-layout" >
+  <app-nav></app-nav>
+  <app-sidebar></app-sidebar>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div>
+</ng-container>
+
+
+
+
+
+
+
+
+ 
